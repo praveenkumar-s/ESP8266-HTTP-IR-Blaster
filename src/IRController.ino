@@ -26,7 +26,7 @@ const int timeZone = -5;                                      // Timezone (-5 is
 
 const bool enableMDNSServices = true;                         // Use mDNS services, must be enabled for ArduinoOTA
 
-const unsigned int captureBufSize = 150;                      // Size of the IR capture buffer.
+const unsigned int captureBufSize = 250;                      // Size of the IR capture buffer.
 
 // WEMOS users may need to adjust pins for compatability
 const int pinr1 = 14;                                         // Receiving pin
